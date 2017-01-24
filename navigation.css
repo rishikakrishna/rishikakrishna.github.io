@@ -1,0 +1,47 @@
+/* navigation.css */
+.circlemenu{
+	width: 100%;
+	overflow:hidden;
+}
+
+.circlemenu ul{
+	margin: 0;
+	padding: 0;
+	font: bold 14px Verdana;
+	list-style-type: none;
+	text-align: center; /* "left", "center", or "right" align menu */
+}
+
+.circlemenu li{
+	display: inline;
+	margin: 0;
+}
+
+.circlemenu li a{
+	display:inline-block;
+	text-align:center;
+	text-decoration: none;
+	color: #000000;
+	background:#e4ffb1;
+	margin: 0;
+	margin-right:5px; /*right spacing between each link */
+	width:100px;
+	height:100px;
+	border-radius: 400px; /*really large border radius to create round borders*/
+	-moz-border-radius: 400px;
+	-webkit-border-radius: 400px;
+}
+
+.circlemenu a span{
+	position:relative;
+	top:40%;
+}
+
+.circlemenu li a:visited{
+	color: #000000;
+}
+
+.circlemenu a:hover{
+	background: #a2f08d;
+	color: #000000;
+}
